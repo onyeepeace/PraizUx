@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 2;
+}
+
+img {
+    width: 100%;
+}
+
+.width, .role, .interface {
+    width: 85%;
+    margin: 3rem auto 0;
+}
+
+#text span {
+    color: #00425F;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+#text p {
+    padding-bottom: 2rem;
+}
+
+#img img {
+    padding-bottom: 2rem;
+}
+
+.redesign, .activity {
+    padding: 3rem 7.5%;
+    background-color: #00425f;
+    color: #ffffff;
+}
+
+.redesign h2 {
+    padding-bottom: 3rem;
+}
+
+.left h3, .right h3 {
+    padding-bottom: 1rem;
+}
+
+.left ul, .right ul, .role-text ul {
+    list-style: none;
+    padding-bottom: 3rem;
+}
+
+.left li, .right li, .role-text ul li {
+    padding-bottom: 1rem;
+}
+
+.new h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.ui, .role-design, .role-result {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 1rem;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.ui-info h3 {
+    padding-bottom: 1rem;
+    font-weight: 400;
+}
+
+.ui-info span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.home-screen h1, .posts h1, .offers h1, .task h1, .pause h1, .deals h1 {
+    text-align: start;
+    padding-bottom: 1rem;
+}
+
+.home-screen p, .posts p, .offers p, .task p, .pause p, .deals p {
+    padding-bottom: 2rem;
+}
+
+.home-screen img, .posts img, .offers img, .task img, .pause img, .deals img {
+    padding-bottom: 3rem;
+}
+
+.activity h1 {
+    line-height: 1;
+    padding-bottom: 2rem;
+}
+
+.activity p {
+    padding-bottom: 2rem;
+}
+
+.meal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.role-text ul li span {
+    color: #000000;
+    font-weight: 800;
+}
+
+.role-girl {
+    display: none;
+}
+
+.role-design h2, .role-result h2 {
+    padding-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.verve-app {
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.verve-app a {
+    text-decoration: none;
+    color: #eb7781;
+}
+
+.verve-app a:hover {
+    color: #ffd254;
+}
+
+@media screen and (min-width: 500px) {
+    .width, .role, .interface {
+        width: 80%;
+        margin: 3rem auto 0;
+    }
+
+    .redesign, .activity {
+        padding: 3rem 10%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .width, .role, .interface {
+        width: 75%;
+        margin: 3rem auto 0;
+    }
+
+    #text span {
+        font-size: 1.5rem;
+    }
+
+    #text p {
+        font-size: 1.2rem;
+    }
+
+    #img img {
+        padding-bottom: 2.5rem;
+    }
+
+    .redesign, .activity {
+        padding: 3rem 12.5%;
+    }
+
+    .redesign h2 {
+        font-size: 2rem;
+    }
+
+    .left h3, .right h3 {
+        font-size: 1.5rem;
+    }
+
+    .left li, .right li, .role-text ul li {
+        font-size: 1.2rem;
+    }
+
+    .new h1, .activity h1 {
+        font-size: 2.5rem;
+    }
+
+    .new p, .activity p {
+        font-size: 1.2rem;
+    }
+
+    .ui-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .role-design, .role-result {
+        grid-column-gap: 3rem;
+    }
+
+    .role-design h2, .role-result h2 {
+        font-size: 2rem;
+    }
+    
+    .role-design p, .role-result p {
+        font-size: 1.2rem;
+    }
+
+    .verve-app {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .width, .role, .interface {
+        width: 85%;
+    }
+
+    .redesign, .activity {
+        padding: 3rem 7.5%;
+    }
+
+    .deals img {
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .role-design, .role-result {
+        display: block;
+    }
+
+    .role-design img, .role-result img {
+        display: none;
+    }
+}

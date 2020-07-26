@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 2;
+}
+
+.hero, .user-research {
+    padding: 3rem 7.5%;
+    background-color: #6bad4c;
+    color: #ffffff;
+}
+
+.hero h3 {
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.hero h3 span {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.care {
+    padding-bottom: 1.5rem;
+}
+
+.width, .template {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.discover h3, .needers, .goals h3, .goals ul li, .user-research h3, .template {
+    padding-bottom: 1rem;
+}
+
+.goals {
+    padding: 2rem 0;
+}
+
+.goals ul {
+    list-style: none;
+}
+
+.width img {
+    padding-bottom: 2rem;
+}
+
+.user-research p {
+    padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 500px) {
+    .hero, .user-research {
+        padding: 3rem 10%;
+    }
+
+    .width, .template {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    main {
+        margin-top: 3rem;
+    }
+    
+    .hero, .user-research {
+        padding: 3rem 12.5%;
+    }
+
+    .width, .template {
+        width: 75%;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .hero h3 span, .discover h3, .goals h3, .user-research h3 {
+        font-size: 2rem;
+    }
+
+    .hero p, .discover p, .goals ul li, .user-research p {
+        font-size: 1.2rem;
+    }
+
+    .needers {
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero, .user-research {
+        padding: 3rem 7.5%;
+    }
+
+    .width, .template {
+        width: 85%;
+    }
+
+    .hero h3 {
+        font-size: 2rem;
+    }
+
+    .hero h3 span, .discover h3, .goals h3, .user-research h3 {
+        font-size: 2.5rem;
+    }
+
+    .hero p, .discover p, .goals ul li, .user-research p {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+    line-height: 2;
+}
+
+img {
+    width: 100%;
+}
+
+.width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
+    width: 85%;
+    margin: 2rem auto;
+}
+
+.intro-text {
+    padding-bottom: 1.5rem;
+}
+
+.quickteller-ux {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "job job job"
+    "black ux ux"
+    "black ux ux";
+    align-items: center;
+    justify-content: center;
+}
+
+.quickteller-ux h2 {
+    line-height: 1.5;
+    grid-area: job;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.black {
+    grid-area: black;
+}
+
+.ux-role {
+    grid-area: ux;
+    padding: 1rem 0 2rem 1rem;
+}
+
+.ux-role ul {
+    list-style: none;
+}
+
+.ux-role ul li, .resources ul li, .research-goals ul li, .questions ul li, #q-goal {
+    padding-bottom: .5rem;
+}
+
+.resources {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.resources h2 {
+    line-height: 1.5;
+}
+
+.resources ul {
+    list-style: none;
+}
+
+.research-goals {
+    padding-top: 3rem;
+}
+
+.research-goals h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.research-goals ul {
+    list-style: none;
+}
+
+.focus-groups h2 {
+    text-align: center;
+}
+
+.focus-groups p, .qualitative-research p, .research-insights p, .design-process, .ui-pallete {
+    padding-bottom: 1rem;
+}
+
+.questions h3 {
+    padding: 1rem 0;
+}
+
+.questions ul {
+    list-style: none;
+}
+
+.quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
+    text-align: center;
+}
+
+.qualitative-research ul {
+    list-style: none;
+}
+
+.research-insights span {
+    color: #000000;
+    font-weight: 800;
+}
+
+.new-quickteller h2 {
+    padding: 1rem 0;
+    background-color: #00425f;
+    color: #ffffff;
+    text-align: center;
+}
+
+.dashboard, .airtime, .transfer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.new-images h1 {
+    color: #bbbaba;
+    line-height: 1;
+    padding: 0 1rem;
+}
+
+.new {
+    padding: 1rem;
+    text-align: center;
+}
+
+.new a {
+    text-decoration: none;
+    color: #eb7781;
+}
+
+.new a:hover {
+    color: #ffd254;
+}
+
+@media screen and (min-width: 500px) {
+    .width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
+        width: 75%;
+        margin: 2rem auto;
+    }
+
+    .intro-text {
+        padding-bottom: 2rem;
+    }
+
+    .quickteller-intro p, .ux-role ul li, .resources ul li, .research-goals ul li, .focus-groups p, .questions ul li, .quantitative-research p, .qualitative-research p, .qualitative-research ul li, .research-insights p, .new {
+        font-size: 1.2rem;
+    }
+
+    .quickteller-ux h2 {
+        padding-top: 2.5rem;
+    }
+
+    .ux-role {
+        padding: 1.5rem 0 2.5rem 1.5rem;
+    }
+
+    .ux-role ul li, .resources ul li, .research-goals ul li, .questions ul li, #q-goal {
+        padding-bottom: 1rem;
+    }
+
+    .resources ul {
+        padding-top: 1rem;
+    }
+
+    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
+        font-size: 1.8rem;
+    }
+
+    .research-goals {
+        padding-top: 4rem;
+    }
+
+    .research-goals h2, .focus-groups p, .qualitative-research p, .research-insights p, .design-process, .ui-pallete {
+        padding-bottom: 1.5rem;
+    }
+
+    .questions h3 {
+        padding: 1.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    .new-quickteller h2 {
+        padding: 2rem 0;
+        font-size: 1.8rem;
+    }
+
+    .dashboard, .airtime, .transfer {
+        padding-bottom: 3rem;
+    }
+
+    .new-images h1 {
+        padding: 0 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    .new {
+        padding: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .navbar {
+        width: 85%;
+    }
+
+    .width, .focus, .quantitative-research, .qualitative-research, .user-journey, .insights, .new-images {
+        width: 85%;
+        margin: 3rem auto;
+    }
+
+    .intro-text {
+        padding-bottom: 2.5rem;
+    }
+
+    .quickteller-intro p, .ux-role ul li, .resources ul li, .research-goals ul li, .focus-groups p, .questions ul li, .quantitative-research p, .qualitative-research p, .qualitative-research ul li, .research-insights p, .new {
+        font-size: 1.5rem;
+    }
+
+    .quickteller-ux h2 {
+        padding-top: 3rem;
+    }
+
+    .ux-role {
+        padding: 2rem 0 3rem 2rem;
+    }
+
+    .ux-role ul li, .resources ul li, .research-goals ul li, .questions ul li, #q-goal {
+        padding-bottom: 1.5rem;
+    }
+
+    .resources ul {
+        padding-top: 1.5rem;
+    }
+
+    .quickteller-ux h2, .resources h2, .research-goals h2, .focus-groups h2, .quantitative-research h2, .qualitative-research h2, .user-journey h2, .research-insights h2, .ui-pallete h2, .old h2 {
+        font-size: 2rem;
+    }
+
+    .research-goals {
+        padding-top: 5rem;
+    }
+
+    .research-goals h2, .focus-groups p, .qualitative-research p, .research-insights p, .design-process, .ui-pallete {
+        padding-bottom: 2rem;
+    }
+
+    .questions h3 {
+        padding: 2rem 0;
+        font-size: 2rem;
+    }
+
+    .new-quickteller h2 {
+        padding: 2.5rem 0;
+        font-size: 2rem;
+    }
+
+    .dashboard, .airtime, .transfer {
+        padding-bottom: 3.5rem;
+    }
+
+    .new-images h1 {
+        padding: 0 2rem;
+        font-size: 3rem;
+    }
+
+    .new {
+        padding: 2rem;
+    }
+}

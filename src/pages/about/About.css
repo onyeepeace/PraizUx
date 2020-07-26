@@ -1,0 +1,110 @@
+.about-main {
+  width: 85%;
+  margin: 3rem auto;
+}
+
+.mine {
+  line-height: 2;
+}
+  
+.mine > p {
+  padding: 1rem 0;
+}
+  
+.contact, .contact-links {
+   padding-top: 2rem;
+}
+  
+.contact h3 {
+  text-align: center;
+}
+  
+.contact-links a {
+  text-decoration: none;
+  color: #eb7781;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials a i {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.contact-links a:hover, .socials a i:hover {
+  color: #ffd254;
+}
+
+.contact-links p {
+  padding: .5rem 0;
+}
+
+/* Media query */
+
+@media screen and (min-width: 500px) {
+  .about-main {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+    /* About Page */
+  .about-main {
+    width: 75%;
+    margin-top: 5rem;
+  }
+
+  .me {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .mine p {
+    font-size: 1.2rem;
+  }
+
+  .contact h3 {
+    font-size: 2rem;
+  }
+
+  .socials a i {
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+
+  .contact-links p {
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* About Page */
+  .about-main {
+    width: 85%;
+  }
+
+  .me {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .mine p {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+  }
+
+  .contact h3 {
+    font-size: 2.2rem;
+  }
+
+  .socials a i {
+    font-size: 2.5rem;
+  }
+
+  .contact-links p {
+    font-size: 1.5rem;
+  }
+}

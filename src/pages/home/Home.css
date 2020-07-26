@@ -1,0 +1,173 @@
+/* Welcome */
+.main {
+    width: 85%;
+    margin: 3rem auto;
+}
+
+.greet h1 {
+    padding: 1.5rem 0;
+}
+
+.greet p {
+    line-height: 2;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 0;
+    font-size: 2rem;
+}
+
+/* Work */
+
+.verve, .quickteller, .caregivrs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+img {
+    width: 100%;
+}
+
+#work h3 {
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+#work p {
+    line-height: 2;
+}
+
+.work-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-link a {
+    display: inline-block;
+    padding: 1rem 0 5px;
+    border-bottom: 4px solid #000000;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.work-link:hover {
+    opacity: 0.5;
+}
+
+.work-link i {
+    display: inline;
+    font-size: 1rem; 
+    padding: 1rem 5px 0;
+}
+
+/* Media query */
+
+@media screen and (min-width: 500px) {
+    .main {
+      width: 80%;
+    }
+  }
+
+@media screen and (min-width: 800px) {
+    /* Welcome */
+    .main {
+        width: 75%;
+        margin-top: 5rem;
+    }
+
+    .greet h1 {
+        padding: 2rem 0;
+    }
+
+    .greet p {
+        font-size: 1.2rem;
+    }
+
+    .arrow {
+        font-size: 3rem;
+    }
+
+    /* Work */
+
+    .verve, .quickteller, .caregivrs {
+        margin: 4rem 0;
+    }
+
+    #work h3 {
+        padding-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    #work p {
+        font-size: 1.2rem;
+    }
+
+    .work-link a {
+        padding: 1.5rem 0 10px;
+        font-size: 1.2rem;
+    }
+
+    .work-link i {
+        padding: 1.5rem 10px 0;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* Welcome */
+    .main {
+        width: 85%;
+    }
+
+    .greet h1 {
+        font-size: 2rem;
+    }
+
+    .greet p {
+        font-size: 1.5rem;
+    }
+
+    .arrow {
+        font-size: 4rem;
+    }
+
+    /* Work */
+
+    .verve, .quickteller, .caregivrs {
+        margin: 10rem 0;
+    }
+
+    #phone {
+        width: 70%;
+        margin-left: 3rem;
+    }
+
+    #sign {
+        margin-left: 3rem;
+    }
+
+    #work h3 {
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    #work p {
+        font-size: 1.5rem;
+    }
+
+    .work-link a {
+        padding: 2rem 0 10px;
+        font-size: 1.5rem;
+    }
+
+    .work-link i {
+        padding: 2rem 10px 0;
+        font-size: 2rem;
+    }
+}
